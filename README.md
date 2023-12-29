@@ -11,13 +11,12 @@ permettant de chiffre un mesage sur 256 bit à l'aide de l'algorithme ASCON128.
 Le projet est exhaustif et présente aussi l'ensemble des test qui ont étés réalisés sur chaque composant.
 
 # Structure
-chiers liés aux architectures Systemverilog sont situés dans le répertoire "/SRC",
+Les fichiers liés aux architectures Systemverilog sont situés dans le répertoire "/SRC",
 pour ce projet deux bibliothèques associées on étés mises en place pour faciliter la compilation
 et l'exécution : "LIB_RTL" et "LIB_BENCH".
-Les fichiers de testbench se trouvent dans le répertoire "SRC/BENCH". Les chiers de
-testbench sont facilement identiables grâce à leur nom du type xxx_tb.sv.
-De plus, il existe un répertoire (SRC/RTL) qui contiennen les chiers décrivant l'architecture
-du circuit des diérents composants.
-Enn le projet comprend le pakcage "ascon_pack",ce dernier englobe les dénitions de
+Les fichiers de testbench se trouvent dans le répertoire "SRC/BENCH". Les fichiers de
+testbench sont facilement identifiables grâce à leur nom du type xxx_tb.sv.
+De plus, il existe un répertoire (SRC/RTL) qui contiennen les fichiers décrivant l'architecture
+du circuit des différents composants.
+En fin le projet comprend le pakcage "ascon_pack",ce dernier englobe les définitions de
 types couramment utilisés, tels que la structure type_state.
-
