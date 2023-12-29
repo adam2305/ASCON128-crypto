@@ -1,0 +1,61 @@
+# vsim -L LIB_RTL LIB_BENCH.top_level_tb 
+# Start time: 18:10:45 on Dec 17,2023
+# Loading sv_std.std
+# Loading LIB_RTL.ascon_pack
+# Loading LIB_BENCH.top_level_tb_sv_unit
+# Loading LIB_BENCH.top_level_tb
+# Loading LIB_RTL.top_level
+# Loading LIB_RTL.fsm_sv_unit
+# Loading LIB_RTL.fsm
+# Loading LIB_RTL.permutation_v5_sv_unit
+# Loading LIB_RTL.permutation_v5
+# Loading LIB_RTL.mux_sv_unit
+# Loading LIB_RTL.mux
+# Loading LIB_RTL.xor_begin
+# Loading LIB_RTL.dff_64_sv_unit
+# Loading LIB_RTL.dff_64
+# Loading LIB_RTL.p_sv_unit
+# Loading LIB_RTL.p
+# Loading LIB_RTL.pc_sv_unit
+# Loading LIB_RTL.pc
+# Loading LIB_RTL.ps_sv_unit
+# Loading LIB_RTL.ps
+# Loading LIB_RTL.pl_sv_unit
+# Loading LIB_RTL.pl
+# Loading LIB_RTL.xor_end_sv_unit
+# Loading LIB_RTL.xor_end
+# Loading LIB_RTL.dff_128_sv_unit
+# Loading LIB_RTL.dff_128
+# Loading LIB_RTL.dff
+# Loading LIB_RTL.compteur_double_init_sv_unit
+# Loading LIB_RTL.compteur_double_init
+# Loading LIB_RTL.compteur_bloc_sv_unit
+# Loading LIB_RTL.compteur_bloc
+# Loading LIB_RTL.sbox_sv_unit
+# Loading LIB_RTL.sbox
+add wave -position insertpoint  \
+sim:/top_level_tb/P1_s \
+sim:/top_level_tb/P2_s \
+sim:/top_level_tb/P3_s \
+sim:/top_level_tb/P4_s \
+sim:/top_level_tb/cipher_s \
+sim:/top_level_tb/cipher_valid_s \
+sim:/top_level_tb/clock_s \
+sim:/top_level_tb/data_s \
+sim:/top_level_tb/data_valid_s \
+sim:/top_level_tb/end_s \
+sim:/top_level_tb/key_s \
+sim:/top_level_tb/nonce_s \
+sim:/top_level_tb/resetb_s \
+sim:/top_level_tb/start_s \
+sim:/top_level_tb/tag_s
+run -all
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libpthread.so.0 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/librt.so.1 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libdl.so.2 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libm.so.6 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libc.so.6 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/ld-linux.so.2 : module was loaded at an absolute address.
+# End time: 18:20:54 on Dec 17,2023, Elapsed time: 0:10:09
+# Errors: 0, Warnings: 7
