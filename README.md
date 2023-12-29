@@ -10,6 +10,9 @@ Le but de est d'utiliser le language de description matérielle Systemverilog po
 permettant de chiffre un mesage sur 256 bit à l'aide de l'algorithme ASCON128.
 Le projet est exhaustif et présente aussi l'ensemble des test qui ont étés réalisés sur chaque composant.
 
+Pour une description plus detaillée veuillez lire le rapport joint au prjet.
+[cryptage_ASCON128](./Rapport.pdf)
+
 # Structure
 Les fichiers liés aux architectures Systemverilog sont situés dans le répertoire "/SRC",
 pour ce projet deux bibliothèques associées on étés mises en place pour faciliter la compilation
