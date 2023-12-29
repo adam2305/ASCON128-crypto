@@ -14,7 +14,7 @@ Le projet est exhaustif et présente aussi l'ensemble des test qui ont étés r�
 chiers liés aux architectures Systemverilog sont situés dans le répertoire "/SRC",
 pour ce projet deux bibliothèques associées on étés mises en place pour faciliter la compilation
 et l'exécution : "LIB_RTL" et "LIB_BENCH".
-Les chiers de testbench se trouvent dans le répertoire "SRC/BENCH". Les chiers de
+Les fichiers de testbench se trouvent dans le répertoire "SRC/BENCH". Les chiers de
 testbench sont facilement identiables grâce à leur nom du type xxx_tb.sv.
 De plus, il existe un répertoire (SRC/RTL) qui contiennen les chiers décrivant l'architecture
 du circuit des diérents composants.
